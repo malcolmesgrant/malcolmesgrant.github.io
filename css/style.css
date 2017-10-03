@@ -24,25 +24,45 @@ a:hover {
 }
 
 /* Overriding Bootstrap Button Styles */
-.pics{
-  display: inline;
-}
+.btn-outline-primary {
 
+  font-weight: 600;
+
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .dropdown-toggle.btn-outline-primary {
+  background: #49c5ff;
+  border-color: #49c5ff;
+}
 
 /* Header Styling */
-/*.header {
-
-}*/
-
-div.container.h-100.pb-2.text-center {
-  border: 1px solid black;
-  width: 100%;
-  height: 300px;
+.header {
   background-image: url(images/M_STAR_MOUNTAIN_EXAMPLE.png);
   color: #fff;
+  
 }
-
-
+.header .social {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+.header .social a {
+  display: inline-block;
+  text-align: center;
+  padding-top: 2px;
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.header .action {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
 
 /* Sticky Navbar */
 .sticky.is-sticky {
