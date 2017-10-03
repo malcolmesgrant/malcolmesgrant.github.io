@@ -25,9 +25,9 @@ a:hover {
 
 /* Overriding Bootstrap Button Styles */
 .btn-outline-primary {
-
+  color: #49c5ff;
   font-weight: 600;
-
+  border-color: #49c5ff;
 }
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .dropdown-toggle.btn-outline-primary {
   background: #49c5ff;
@@ -35,10 +35,9 @@ a:hover {
 }
 
 /* Header Styling */
-.header {
+.header .content {
   background-image: url(images/M_STAR_MOUNTAIN_EXAMPLE.png);
   color: #fff;
-  
 }
 .header .social {
   margin-bottom: 0;
